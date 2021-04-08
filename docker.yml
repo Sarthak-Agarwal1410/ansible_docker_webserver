@@ -1,4 +1,4 @@
-- hosts: 192.168.43.159
+- hosts: TargetNodeIP
   tasks:
   - name: Setting up Docker Yum Configuration
     yum_repository:
